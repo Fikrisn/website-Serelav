@@ -1,0 +1,94 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'comic sans ms';
+}
+
+.wrapper {
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    float: block;
+    font-family: Courier;
+    color: #15dbe2;
+    background: #6ea0da;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+a.tbl-biru {
+    background: #05969b;
+    border-radius: block;
+    margin: 20px;
+    padding: 10px 20px 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #f12b08;
+    text-decoration: none;
+}
+
+h5 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 29px;
+    margin-bottom: 10px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 40px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: rgb(32, 7, 7);
+    width: 100%;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+}
